@@ -1,0 +1,203 @@
+[07-Oct-24 23:55:56 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/codeflix_bots
+[07-Oct-24 23:55:56 - INFO] - bot -  BOT DEPLOYED BY @CODEFLIX_BOTS
+[07-Oct-24 23:55:58 - ERROR] - pyrogram.dispatcher - cannot access local variable 'string' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\newenv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\newenv\Lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\newenv\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\File-Store-Bot-Token-Verification-main\File-Store-Bot-Token-Verification-main\plugins\start.py", line 47, in start_command
+    if string.startswith("premium"):
+       ^^^^^^
+UnboundLocalError: cannot access local variable 'string' where it is not associated with a value
+[07-Oct-24 23:58:06 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[07-Oct-24 23:58:06 - INFO] - bot - Bot stopped.
+[07-Oct-24 23:59:08 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/codeflix_bots
+[07-Oct-24 23:59:08 - INFO] - bot -  BOT DEPLOYED BY @CODEFLIX_BOTS
+[08-Oct-24 00:02:25 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/codeflix_bots
+[08-Oct-24 00:02:25 - INFO] - bot -  BOT DEPLOYED BY @CODEFLIX_BOTS
+[08-Oct-24 00:07:08 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/codeflix_bots
+[08-Oct-24 00:07:08 - INFO] - bot -  BOT DEPLOYED BY @CODEFLIX_BOTS
+[08-Oct-24 00:08:56 - ERROR] - pyrogram.dispatcher - 'str' object has no attribute 'ascii_letters'
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\newenv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\newenv\Lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\newenv\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\File-Store-Bot-Token-Verification-main\File-Store-Bot-Token-Verification-main\plugins\start.py", line 214, in start_command
+    token = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'ascii_letters'
+[08-Oct-24 00:09:25 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[08-Oct-24 00:09:25 - INFO] - bot - Bot stopped.
+[08-Oct-24 00:12:59 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/codeflix_bots
+[08-Oct-24 00:12:59 - INFO] - bot -  BOT DEPLOYED BY @CODEFLIX_BOTS
+[08-Oct-24 00:13:30 - ERROR] - pyrogram.dispatcher - 'str' object has no attribute 'ascii_letters'
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\newenv\Lib\site-packages\pyrogram\dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\newenv\Lib\site-packages\pyrogram\handlers\message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\newenv\Lib\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\File-Store-Bot-Token-Verification-main\File-Store-Bot-Token-Verification-main\plugins\start.py", line 215, in start_command
+    token = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'ascii_letters'
+[08-Oct-24 00:13:56 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[08-Oct-24 00:13:56 - INFO] - bot - Bot stopped.
+[08-Oct-24 00:30:06 - WARNING] - bot - Peer id invalid: -1002215102799
+[08-Oct-24 00:30:06 - WARNING] - bot - Bot can't Export Invite link from Force Sub Channel!
+[08-Oct-24 00:30:06 - WARNING] - bot - Please Double check the FORCE_SUB_CHANNEL value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: -1002215102799
+[08-Oct-24 00:30:06 - INFO] - bot - 
+Bot Stopped. Join https://t.me/codeflix_bots for support
+[08-Oct-24 00:35:12 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/codeflix_bots
+[08-Oct-24 00:35:12 - INFO] - bot -  BOT DEPLOYED BY @CODEFLIX_BOTS
+[08-Oct-24 00:35:24 - ERROR] - pyrogram.dispatcher - cannot access local variable 'string' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\File-Store-Bot-Token-Verification-main\File-Store-Bot-Token-Verification-main\plugins\start.py", line 239, in start_command
+    token = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
+                                   ^^^^^^
+UnboundLocalError: cannot access local variable 'string' where it is not associated with a value
+[08-Oct-24 00:41:51 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[08-Oct-24 00:41:51 - INFO] - bot - Bot stopped.
+[08-Oct-24 00:45:00 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/codeflix_bots
+[08-Oct-24 00:45:00 - INFO] - bot -  BOT DEPLOYED BY @CODEFLIX_BOTS
+[08-Oct-24 00:45:50 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[08-Oct-24 00:45:50 - INFO] - bot - Bot stopped.
+[08-Oct-24 00:47:37 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/codeflix_bots
+[08-Oct-24 00:47:37 - INFO] - bot -  BOT DEPLOYED BY @CODEFLIX_BOTS
+[08-Oct-24 00:47:47 - ERROR] - pyrogram.dispatcher - 'AsyncIOMotorCursor' object is not iterable
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\File-Store-Bot-Token-Verification-main\File-Store-Bot-Token-Verification-main\plugins\start.py", line 386, in list_premium_users_command
+    for user in premium_users:
+TypeError: 'AsyncIOMotorCursor' object is not iterable
+[08-Oct-24 00:50:39 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[08-Oct-24 00:50:39 - INFO] - bot - Bot stopped.
+[08-Oct-24 00:50:59 - ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'uptime'
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\File-Store-Bot-Token-Verification-main\File-Store-Bot-Token-Verification-main\plugins\useless.py", line 12, in stats
+    delta = now - bot.uptime
+                  ^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'uptime'
+[08-Oct-24 00:51:01 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/codeflix_bots
+[08-Oct-24 00:51:01 - INFO] - bot -  BOT DEPLOYED BY @CODEFLIX_BOTS
+[08-Oct-24 01:09:30 - INFO] - bot -  BOT DEPyyyyyyyyyyyyyyyyyyyy
+[08-Oct-24 01:11:37 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[08-Oct-24 01:14:51 - INFO] - bot -  BOT DEPyyyyyyyyyyyyyyyyyyyy
+[08-Oct-24 01:15:27 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[08-Oct-24 01:15:27 - INFO] - bot - Bot stopped.
+[08-Oct-24 01:18:12 - INFO] - bot -  BOT DEPyyyyyyyyyyyyyyyyyyyy
+[08-Oct-24 01:18:24 - ERROR] - pyrogram.dispatcher - 'async for' requires an object with __aiter__ method, got Cursor
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\filetoken\plugins\start.py", line 305, in get_users
+    users = await full_userbase()
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\filetoken\database\database.py", line 51, in full_userbase
+    user_ids = [doc['_id'] async for doc in user_docs]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'async for' requires an object with __aiter__ method, got Cursor
+[08-Oct-24 01:18:56 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[08-Oct-24 01:18:56 - INFO] - bot - Bot stopped.
+[08-Oct-24 01:24:05 - ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'uptime'
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\filetoken\plugins\useless.py", line 12, in stats
+    delta = now - bot.uptime
+                  ^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'uptime'
+[08-Oct-24 01:24:06 - ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'uptime'
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\filetoken\plugins\useless.py", line 12, in stats
+    delta = now - bot.uptime
+                  ^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'uptime'
+[08-Oct-24 01:24:06 - INFO] - bot -  BOT DEPyyyyyyyyyyyyyyyyyyyy
+[08-Oct-24 01:26:09 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[08-Oct-24 01:26:36 - INFO] - bot -  BOT DEPyyyyyyyyyyyyyyyyyyyy
+[08-Oct-24 01:29:13 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[08-Oct-24 01:31:31 - ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'uptime'
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\filetoken\plugins\useless.py", line 12, in stats
+    delta = now - bot.uptime
+                  ^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'uptime'
+[08-Oct-24 01:31:32 - INFO] - bot -  BOT DEPyyyyyyyyyyyyyyyyyyyy
+[08-Oct-24 01:38:19 - INFO] - bot -  BOT DEPyyyyyyyyyyyyyyyyyyyy
+[08-Oct-24 01:39:54 - ERROR] - pyrogram.dispatcher - Invalid base64-encoded string: number of data characters (17) cannot be 1 more than a multiple of 4
+Traceback (most recent call last):
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Ayush Majmule\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pyromod\listen\listen.py", line 93, in resolve_listener
+    await self.user_callback(client, message, *args)
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\filetoken\plugins\start.py", line 46, in start_command
+    string = await decode(base64_string)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ayush Majmule\Downloads\AyuGram Desktop\Repos\filetoken\helper_func.py", line 43, in decode
+    string_bytes = base64.urlsafe_b64decode(base64_bytes)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\base64.py", line 134, in urlsafe_b64decode
+    return b64decode(s)
+           ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s, strict_mode=validate)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+binascii.Error: Invalid base64-encoded string: number of data characters (17) cannot be 1 more than a multiple of 4

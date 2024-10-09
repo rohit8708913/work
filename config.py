@@ -7,12 +7,16 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7401282886:AAHxKsKu9U7vVgEfKFWIf3xgbvudUZQT5CY")
+
 APP_ID = int(os.environ.get("APP_ID", "26258063"))
+
 API_HASH = os.environ.get("API_HASH", "be0a0e2ecd938bfc5401d35a399deeb7")
+
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002008354608"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7328629001"))
+
 PORT = os.environ.get("PORT", "8039")
 
 #Database 

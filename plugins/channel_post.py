@@ -35,7 +35,7 @@ async def channel_post(client: Client, message: Message):
             [InlineKeyboardButton("Premium User", url=link1)]
         ]
     )
-    await reply_text.edit(f"<b>Here are your links</b>\n\n{link}", reply_markup=keyboard, disable_web_page_preview = True)
+    await reply_text.edit(f"<b>Here are your links</b>", reply_markup=keyboard, disable_web_page_preview = True)
 
     if not DISABLE_CHANNEL_BUTTON:
         await post_message.edit_reply_markup(keyboard)
